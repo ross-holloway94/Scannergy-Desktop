@@ -1,0 +1,3 @@
+product: https://world.openfoodfacts.org/api/v0/product/737628064502.json
+brand: https://world.openfoodfacts.org/brand/monoprix.json
+shop: https://world.openfoodfacts.org/store/super-u.json

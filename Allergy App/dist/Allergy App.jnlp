@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Allergy App.jnlp">
+  <information>
+    <title>Allergy App</title>
+    <vendor>Ross</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\evo-inflector-1.2.2.jar" size="12809" download="eager" />
+    <jar href="lib\jackson-annotations-2.9.0.pr3.jar" size="66528" download="eager" />
+    <jar href="lib\jackson-core-2.9.0.pr3.jar" size="286706" download="eager" />
+    <jar href="lib\jackson-databind-2.9.0.pr3.jar" size="1316975" download="eager" />
+    <jar href="lib\javase-3.3.0.jar" size="41451" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Allergy App" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="allergyApp.AllergyApp"  name="Allergy App" />
+  <update check="always"/>
+</jnlp>
